@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="hb" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>חולון - העדלאידע</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Henny+Penny&family=Pattaya&family=Roboto&display=swap");
+    </style>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header id="header">
+      <nav>
+        <a href="index.html" class="logo">
+          <img src="הורדה.png" alt="" width="100" />דף הבית</a
+        >
+        <a href="#"><i class="bi bi-list"></i></a>
+        <ul class="menu-bar">
+          <li><a href="./about.html">תוכן</a></li>
+          <li><a href="./media.html">מדיה</a></li>
+          <li><a href="./question.html">שאלות</a></li>
+          <li><a href="./contact.html">יצירת קשר</a></li>
+        </ul>
+      </nav>
+
+      <div class="top-wellcome">
+        <div class="inner-wellcome">
+          <h1>ברוכים הבאים לעדלאידע</h1>
+          <p>העדלאידע הינה תערוכת פורים שנערכת מידי שנה בעיר חולון</p>
+        </div>
+      </div>
+    </header>
+
+    <main class="contact">
+      <div>
+        <h2>לפניות נא מלא פרטים ותוכן הפניה:</h2>
+      </div>
+      <div class="form">
+        <label for="name">שם פרטי:</label>
+        <input type="text" id="name" name="name" placeholder="לדוגמא : שרון" />
+
+        <label for="surname">שם משפחה:</label>
+        <input
+          type="text"
+          id="surname"
+          name="surname"
+          placeholder="לדוגמא : זגורי"
+        />
+
+        <label for="tel">פלאפון:</label>
+        <input
+          type="tel"
+          id="tel"
+          name="tel"
+          placeholder=" לדוגמא : 0526434859"
+        />
+
+        <label for="mail">הכנס מייל:</label>
+        <input
+          type="email"
+          id="mail"
+          name="mail"
+          placeholder="לדוגמא : your@email.com"
+        />
+
+        <label for="pnia">תוכן הפניה:</label>
+        <textarea
+          name="tohen-pnia "
+          id="pnia"
+          cols="20"
+          rows="1"
+          placeholder="נא מלא כאן..."
+        ></textarea>
+
+        <input class="btn-send" type="submit" value="שלח טופס" />
+      </div>
+    </main>
+
+    <section class="sponsers">
+      <div class="sponsers">
+        <div class="card" style="width: 10rem">
+          <img src="מי עדן.jpg" class="card-img-top" alt="..." height="100px" />
+          <div class="card-body bg-secondary">
+            <h5 class="card-title">מי עדן</h5>
+            <p class="card-text">
+              מי עדן הוא מותג מים מינרליים בשמו משווקים מאז 1983 מי מעיין סלוקיה
+              מרמת הגולן. המפעל של מי עדן שוכן בקצרין.
+            </p>
+            <a
+              href="http://www.meyeden.co.il/"
+              class="btn btn-primary"
+              target="_blank"
+              >עבור לאתר
+            </a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 10rem">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/he/thumb/2/2a/%D7%92%D7%95%D7%9C%D7%93%D7%A1%D7%98%D7%90%D7%A8.svg/1280px-%D7%92%D7%95%D7%9C%D7%93%D7%A1%D7%98%D7%90%D7%A8.svg.png"
+            class="card-img-top"
+            alt="..."
+            height="100px"
+          />
+          <div class="card-body bg-secondary">
+            <h5 class="card-title">גולדסטאר</h5>
+            <p class="card-text">
+              גולדסטאר היא בירת לאגר ישראלית בסגנון לאגר דונקל מינכנאי המכילה
+              4.9% אלכוהול. היא הושקה לראשונה בשנת 1950 ומיוצרת במפעלי "טמפו"
+              בנתניה. גולדסטאר היא הבירה המובילה בישראל, עם נתח שוק של 33%.
+            </p>
+            <a
+              href="https://www.tempo.co.il/"
+              class="btn btn-primary"
+              target="_blank"
+              >עבור לאתר
+            </a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 10rem">
+          <img
+            src="https://files.mishloha.co.il/files/rest_logo/RLL_3141_636687237238545217.png"
+            class="card-img-top"
+            alt="..."
+            height="100px"
+          />
+          <div class="card-body bg-secondary">
+            <h5 class="card-title">בורגראנץ'</h5>
+            <p class="card-text">
+              בורגראנץ' היא רשת מזון מהיר ישראלית, המציעה בעיקר ארוחות המבורגר
+              הכוללות מנת המבורגר בלחמנייה עם שתייה ותוספות שונות. המתחרות
+              העיקריות של החברה הן הרשתות האמריקאיות "מקדונלד'ס" ו"ברגר קינג".
+              נכון לאפריל 2022, הרשת מונה 64 סניפים מקרית שמונה ועד אילת.
+            </p>
+            <a
+              href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjZkJCs0Nr8AhUEndUKHfwYBEEYABAAGgJ3cw&ohost=www.google.com&cid=CAESauD23e8blEe7uBZFXLOH7p-DuZtyt8cAadsqK5iqDD9mHVcQZDamaWSC754gm4w9NK2OkedHxI5cR6xZ13esEl470Oi__VTccul9tyfdnNqXh0KoWQYQc3xTrKTOtoHszJLfheod_SwUdN0&sig=AOD64_2PrR_tmTWp6af8_qaqvpgDbNc2Ag&q&adurl&ved=2ahUKEwim6Yis0Nr8AhWTVqQEHbz6DWYQ0Qx6BAgKEAM"
+              class="btn btn-primary"
+              target="_blank"
+              >עבור לאתר
+            </a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 10rem">
+          <img
+            src="https://www.mypizza.co.il/wp-content/sabai/File/files/l_6011d3a4d75c6138fcad2e75cf4195ac.jpg"
+            class="card-img-top"
+            alt="..."
+            height="100px"
+          />
+          <div class="card-body bg-secondary">
+            <h5 class="card-title">פיצה תרשיש</h5>
+            <p class="card-text">
+              אפשרויות שירות: לאכול במקום · איסוף עצמי כתובת: מרכז עזריאלי,
+              חולון שעות פעילות: יום שלישי 12:15–17:30 יום רביעי 12:15–17:30 יום
+              חמישי 12 :15–17:30 יום שישי סגור יום שבת סגור יום ראשון
+              12:15–17:30 יום שני 12:15–17:30 טלפון: 03-300-2447
+            </p>
+            <a
+              href="https://easy.co.il/page/10052918"
+              class="btn btn-primary"
+              target="_blank"
+              >עבור לאתר
+            </a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 10rem">
+          <img
+            src="https://שירות-לקוחות.org.il/wp-content/uploads/2019/09/%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99-Azrieli-%D7%9C%D7%95%D7%92%D7%95.jpg"
+            class="card-img-top"
+            alt="..."
+            height="100px"
+          />
+          <div class="card-body bg-secondary">
+            <h5 class="card-title">עזריאלי</h5>
+            <p class="card-text">
+              כל מה שאתם צריכים במקום אחד: ריהוט לבית ולגן, מוצרי חשמל
+              ואלקטרוניקה, ביוטי ופארם ועוד. מבצעים שווים לכל המשפחה! פארם
+              וביוטי, אופנה והנעלה ועוד אלפי מוצרים מחכים לך באתר. אתר הקניות
+              המוביל בישראל. להזמנה עכשיו. מבצעים והנחות. אספקה מהירה.
+            </p>
+            <a
+              href="https://www.azrieli.com/"
+              class="btn btn-primary"
+              target="_blank"
+              >עבור לאתר
+            </a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 10rem">
+          <img
+            src="https://media.easy.co.il/images/UserPics/26548768_1553437508581.jpg"
+            class="card-img-top"
+            alt="..."
+            height="100px"
+          />
+          <div class="card-body bg-secondary">
+            <h5 class="card-title">ספאט הוטל</h5>
+            <p class="card-text">
+              רשת ספאט הוטל הינה רשת מלונות בוטיק צעירה בתחום התיירות . ברשותנו
+              מלונות במרכז הארץ אשר חלקן נמצאים על קו החוף ובמקומות המרכזיים
+              ביותר במרכז ובשפלה .
+            </p>
+            <a
+              href="https://www.spathotels.com/copy-of-%D7%A1%D7%A4%D7%90%D7%98-%D7%90%D7%A9%D7%93%D7%95%D7%93"
+              class="btn btn-primary"
+              target="_blank"
+              >עבור לאתר
+            </a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 10rem">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/he/archive/2/22/20121210132329%21Osem_Logo.svg"
+            class="card-img-top"
+            alt="..."
+            height="100px"
+          />
+          <div class="card-body bg-secondary">
+            <h5 class="card-title">אסם</h5>
+            <p class="card-text">
+              אֹסֶם השקעות בע"מ המוכרת בשמה המקוצר "אסם" היא קבוצת חברות מזון
+              ישראלית גדולה, הנשלטת על ידי תאגיד המזון השווייצרי נסטלה, המחזיק
+              ב-100% ממניותיה.
+            </p>
+            <a
+              href="https://www.osem-nestle.co.il/"
+              class="btn btn-primary"
+              target="_blank"
+              >עבור לאתר
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>ariel azulay 2023 ©</footer>
+  </body>
+</html>
